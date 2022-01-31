@@ -5,8 +5,8 @@
 public class JumpCommand : MonoBehaviour, ICommand
 {
     [SerializeField] LineRenderer lineRenderer;
-    [SerializeField] float jumpForce = 15f;
-    [SerializeField] float maxDistance = 4f;
+    [SerializeField] float jumpForce = 10f;
+    [SerializeField] float maxDistance = 5f;
     [SerializeField] float maxSliderLength = 5f;
 
     private Unit unit;

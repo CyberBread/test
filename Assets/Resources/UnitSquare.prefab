@@ -343,8 +343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 5659470469330351080}
-  jumpForce: 15
-  maxDistance: 4
+  jumpForce: 10
+  maxDistance: 5
   maxSliderLength: 5
 --- !u!65 &4545231406922185322
 BoxCollider:
